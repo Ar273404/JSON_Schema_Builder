@@ -33,7 +33,6 @@ interface DialogTriggerProps {
 
 export const DialogTrigger: React.FC<DialogTriggerProps> = ({
   asChild,
-  isOpen,
   setIsOpen,
   children,
 }) => {

@@ -6,7 +6,6 @@ import { Badge } from "./common/Badge";
 import { Input } from "./common/Input";
 import {
   Plus,
-  Settings,
   Code,
   Wrench,
   Sparkles,
@@ -14,7 +13,7 @@ import {
   RotateCcw,
 } from "lucide-react";
 import { FieldItem } from "./FieldItem";
-import { SchemaField, SavedObject } from "../types/schema";
+import { SchemaField } from "../types/schema";
 import { useState } from "react";
 
 interface SchemaBuilderProps {

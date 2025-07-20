@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { SchemaBuilder } from "./components/SchemaBuilder";
 import { JsonPreview } from "./components/JsonPreview";
 import { SavedObjects } from "./components/SavedObjects";
@@ -109,17 +109,6 @@ function App() {
             </Tabs>
           </div>
         </div>
-
-        {/* Footer */}
-        {/* <div className="mt-8 text-center text-sm text-gray-500 dark:text-gray-400">
-          <p>
-            Build complex JSON objects with Key-Datatype-Value structure. Submit
-            to save and manage your objects.
-            <br />
-            Changes are reflected in real-time. Use the tabs to switch between
-            preview and saved objects.
-          </p>
-        </div> */}
       </div>
     </div>
   );

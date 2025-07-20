@@ -32,7 +32,6 @@ interface FieldItemProps {
 }
 
 export const FieldItem: React.FC<FieldItemProps> = ({
-  field,
   index,
   onRemove,
   basePath,
@@ -43,7 +42,6 @@ export const FieldItem: React.FC<FieldItemProps> = ({
 
   const fieldPath = `${basePath}[${index}]`;
   const currentType = watch(`${fieldPath}.type`);
-  const currentName = watch(`${fieldPath}.name`);
   const children = watch(`${fieldPath}.children`) || [];
 
   const {
